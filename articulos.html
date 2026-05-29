@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Artículos de Naturaleza</title>
+    <link rel="stylesheet" href="estilos.css"/>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>🏡 Casa Natura</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="articulos.html" class="active">Artículos</a></li>
+                <li><a href="novedades.html">Novedades</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="search-section">
+        <div class="container">
+            <h2>Buscar Artículos</h2>
+            <form action="#" method="GET" class="search-form">
+                <input type="text" name="buscar" class="search-bar" placeholder="Buscar por título o hábitat (ej. león, sabana)..."/>
+            </form>
+        </div>
+    </section>
+
+    <section class="articles">
+        <div class="container">
+            <div class="articles-grid" id="articlesGrid">
+                <article class="article-card">
+                    <div class="article-image" role="img" aria-label="León">🦁</div>
+                    <div class="article-content">
+                        <span class="article-habitat">Sabana</span>
+                        <h3>El Rey de la Selva</h3>
+                        <p>El león es uno de los felinos más grandes del mundo, conocido por su majestuosa melena y su papel como superdepredador en los ecosistemas de la sabana africana.</p>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <div class="article-image" role="img" aria-label="Águila">🦅</div>
+                    <div class="article-content">
+                        <span class="article-habitat">Montaña</span>
+                        <h3>El Señor de las Alturas</h3>
+                        <p>Las águilas son aves rapaces imponentes con una visión extraordinaria, capaces de divisar a sus presas desde kilómetros de distancia en las cumbres montañosas.</p>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <div class="article-image" role="img" aria-label="Tiburón">🦈</div>
+                    <div class="article-content">
+                        <span class="article-habitat">Océano</span>
+                        <h3>Depredadores del Océano</h3>
+                        <p>Los tiburones son vitales para la salud de los ecosistemas marinos. Han habitado nuestros océanos por más de 400 millones de años, manteniendo el equilibrio biológico.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="table-section">
+        <div class="container">
+            <h2>Estado de Conservación Actual</h2>
+            <div class="table-container">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Especie</th>
+                            <th>Hábitat Principal</th>
+                            <th>Población Estimada</th>
+                            <th>Nivel de Riesgo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Águila Harpía</td>
+                            <td>Selva Tropical</td>
+                            <td>Menos de 50,000</td>
+                            <td><span class="table-badge peligro">En Peligro</span></td>
+                        </tr>
+                        <tr>
+                            <td>León Africano</td>
+                            <td>Sabana</td>
+                            <td>Aprox. 20,000</td>
+                            <td><span class="table-badge vulnerable">Vulnerable</span></td>
+                        </tr>
+                        <tr>
+                            <td>Tiburón Blanco</td>
+                            <td>Océano</td>
+                            <td>Desconocida</td>
+                            <td><span class="table-badge vulnerable">Vulnerable</span></td>
+                        </tr>
+                        <tr>
+                            <td>Oso Pardo</td>
+                            <td>Montaña</td>
+                            <td>Más de 200,000</td>
+                            <td><span class="table-badge seguro">Preocupación Menor</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Casa Natura. Todos los derechos reservados.</p>
+            <p>Dedicado a la educación sobre naturaleza y conservación animal</p>
+        </div>
+    </footer>
+</body>
+</html>

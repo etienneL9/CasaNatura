@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Contacto y Conservación</title>
+    <link rel="stylesheet" href="estilos.css"/>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>🏡 Casa Natura</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="articulos.html">Artículos</a></li>
+                <li><a href="novedades.html">Novedades</a></li>
+                <li><a href="contacto.html" class="active">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="contact-section">
+        <div class="container">
+            <h2>Escríbenos tu Mensaje</h2>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h3>Ponte en Contacto</h3>
+                    <p>¿Tienes dudas sobre los hábitats o quieres colaborar con la conservación? Envíanos un mensaje y te responderemos pronto.</p>
+                    
+                    <form action="#" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label for="nombre">Nombre Completo</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez" required/>
+                        </div>
+                        <div class="form-group">
+                            <label for="correo">Correo Electrónico</label>
+                            <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required/>
+                        </div>
+                        <div class="form-group">
+                            <label for="tema">Asunto de Interés</label>
+                            <select id="tema" name="tema">
+                                <option value="general">Consulta General</option>
+                                <option value="voluntariado">Voluntariado Ambiental</option>
+                                <option value="reporte">Reportar Avistamiento</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Tu Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe aquí tu mensaje sobre conservación..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar Mensaje</button>
+                    </form>
+                </div>
+
+                <div class="info-sidebar">
+                    <div class="info-box media-box">
+                        <h3>🎥 Conservación en Video</h3>
+                        <video class="media-player" controls autoplay muted loop>
+                            <source src="video/harpy3.mp4" type="video/mp4"/>
+                            Tu navegador no soporta el elemento de video.
+                        </video>
+                        <p style="margin-top: 15px; font-size: 13px; color: #777; line-height: 1.4;">
+                            Disfruta de la paz de la naturaleza. Conservar los hábitats naturales es fundamental para salvaguardar la biodiversidad de nuestro planeta.
+                        </p>
+                    </div>
+
+                    <div class="info-box">
+                        <h3>✉️ Consultas Directas</h3>
+                        <p><strong>Email:</strong> contacto@casanatura.com<br/><strong>Teléfono:</strong> +51 987 654 321<br/><strong>Horario:</strong> Lun a Vie, 9:00 AM - 6:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Casa Natura. Todos los derechos reservados.</p>
+            <p>Dedicado a la educación sobre naturaleza y conservación animal</p>
+        </div>
+    </footer>
+</body>
+</html>
